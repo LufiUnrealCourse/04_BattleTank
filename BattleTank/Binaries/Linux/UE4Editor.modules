@@ -1,0 +1,7 @@
+{
+	"BuildId": "361b19ce-2e2c-4246-b807-6ef6e55dfd41",
+	"Modules": 
+	{
+		"BattleTank": "libUE4Editor-BattleTank.so"
+	}
+}

@@ -1,0 +1,903 @@
+﻿Log file open, 03/07/20 10:48:34
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: BattleTank
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.059961
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin AppleImageUtils
+LogInit: Warning: Incompatible or missing module: BattleTank
+LogInit: Initializing SDL.
+LogInit: Initialized SDL 2.0.8 revision: 11184 (hg-12121:4358e537000a with EpicExtensions) (compiled against 2.0.8)
+LogInit: Using SDL video driver 'x11'
+LogInit: Display metrics:
+LogInit:   PrimaryDisplayWidth: 2560
+LogInit:   PrimaryDisplayHeight: 1440
+LogInit:   PrimaryDisplayWorkAreaRect:
+LogInit:     Left=1920, Top=27, Right=4480, Bottom=1440
+LogInit:   VirtualDisplayRect:
+LogInit:     Left=0, Top=0, Right=4480, Bottom=1440
+LogInit:   TitleSafePaddingSize: X=0.000 Y=0.000 Z=0.000 W=0.000
+LogInit:   ActionSafePaddingSize: X=0.000 Y=0.000 Z=0.000 W=0.000
+LogInit:   Number of monitors: 2
+LogInit:     Monitor 0
+LogInit:       Name: 0
+LogInit:       ID: display0
+LogInit:       NativeWidth: 2560
+LogInit:       NativeHeight: 1440
+LogInit:       bIsPrimary: true
+LogInit:     Monitor 1
+LogInit:       Name: E2350 23"
+LogInit:       ID: display1
+LogInit:       NativeWidth: 1920
+LogInit:       NativeHeight: 1080
+LogInit:       bIsPrimary: false
+Running /home/lpereira/git/UnrealEngine/Engine/Binaries/DotNET/UnrealBuildTool.exe Development Linux -Project="/home/lpereira/git/04_BattleTank/BattleTank/BattleTank.uproject" -TargetType=Editor -Progress -NoHotReloadFromIDE
+
+Running Mono...
+
+Fixing inconsistent case in filenames.
+Setting up Mono
+~/git/UnrealEngine/Engine ~/git/UnrealEngine/Engine/Binaries/Linux
+Using 'git status' to determine working set for adaptive non-unity build (/home/lpereira/git/UnrealEngine).
+Using 'git status' to determine working set for adaptive non-unity build (/home/lpereira/git/04_BattleTank).
+Creating makefile for BattleTankEditor (no existing makefile)
+@progress push 5%
+Creating makefile for UnrealHeaderTool (no existing makefile)
+@progress push 5%
+@progress pop
+------- Build details --------
+Using toolchain located at '/home/lpereira/git/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v13_clang-7.0.1-centos7/x86_64-unknown-linux-gnu'.
+Using clang (/home/lpereira/git/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v13_clang-7.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++) version '7.0.1' (string), 7 (major), 0 (minor), 1 (patch)
+Using bundled libc++ standard C++ library.
+Using lld linker
+Using llvm-ar : /home/lpereira/git/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v13_clang-7.0.1-centos7/x86_64-unknown-linux-gnu/bin/llvm-ar
+Using fast way to relink  circularly dependent libraries (no FixDeps).
+------------------------------
+Parsing headers for BattleTankEditor
+  Running UnrealHeaderTool "/home/lpereira/git/04_BattleTank/BattleTank/BattleTank.uproject" "/home/lpereira/git/04_BattleTank/BattleTank/Intermediate/Build/Linux/B4D820EA/BattleTankEditor/Development/BattleTankEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors
+Reflection code generated for BattleTankEditor in 6.4511925 seconds
+@progress pop
+------- Build details --------
+Using toolchain located at '/home/lpereira/git/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v13_clang-7.0.1-centos7/x86_64-unknown-linux-gnu'.
+Using clang (/home/lpereira/git/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v13_clang-7.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++) version '7.0.1' (string), 7 (major), 0 (minor), 1 (patch)
+Using bundled libc++ standard C++ library.
+Using lld linker
+Using llvm-ar : /home/lpereira/git/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v13_clang-7.0.1-centos7/x86_64-unknown-linux-gnu/bin/llvm-ar
+Using fast way to relink  circularly dependent libraries (no FixDeps).
+------------------------------
+Performing 6 actions (8 in parallel)
+[1/6] Compile BattleTankGameModeBase.gen.cpp
+[4/6] Compile BattleTankGameModeBase.cpp
+[3/6] Compile BattleTank.cpp
+[2/6] Compile BattleTank.init.gen.cpp
+[5/6] Link (ld) libUE4Editor-BattleTank.so
+[6/6] UnrealBuildTool.exe BattleTankEditor.target
+Total time in Local executor: 7.02 seconds
+Total execution time: 19.62 seconds
+LogInit: Using libcurl 7.48.0-DEV
+LogInit:  - built for x86_64-unknown-linux-gnu
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_TLSAUTH_SRP
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: Build: ++UE4+Release-4.22-CL-0
+LogInit: Engine Version: 4.22.3-0+++UE4+Release-4.22
+LogInit: Compatible Engine Version: 4.22.0-0+++UE4+Release-4.22
+LogInit: Net CL: 0
+LogInit: OS: GenericOSVersionLabel (GenericOSSubVersionLabel), CPU: Intel(R) Core(TM) i7-8650U CPU @ 1.90GHz, GPU: GenericGPUBrand
+LogInit: Compiled (64-bit): Jan 27 2020 21:49:13
+LogInit: Compiled with Clang: 7.0.1 (tags/RELEASE_701/final)
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.22
+LogInit: Command Line:  -opengl4
+LogInit: Base Directory: /home/lpereira/git/UnrealEngine/Engine/Binaries/Linux/
+LogInit: Installed Engine Build: 0
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 30
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 28
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 25
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 2
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.03.07-15.49.03:848][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.03.07-15.49.03:848][  0]LogConfig: Setting CVar [[r.RHICmdBypass:1]]
+[2020.03.07-15.49.03:848][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [/home/lpereira/git/04_BattleTank/BattleTank/Saved/Config/Linux/Engine.ini]
+[2020.03.07-15.49.03:848][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.03.07-15.49.03:848][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2020.03.07-15.49.03:848][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [/home/lpereira/git/04_BattleTank/BattleTank/Saved/Config/Linux/Engine.ini]
+[2020.03.07-15.49.03:848][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [/home/lpereira/git/04_BattleTank/BattleTank/Saved/Config/Linux/Engine.ini]
+[2020.03.07-15.49.03:848][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.03.07-15.49.03:848][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.03.07-15.49.03:848][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.03.07-15.49.03:848][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.03.07-15.49.03:848][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.03.07-15.49.03:848][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.03.07-15.49.03:848][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.03.07-15.49.03:848][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.03.07-15.49.03:848][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.03.07-15.49.03:848][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.03.07-15.49.03:848][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.03.07-15.49.03:848][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.03.07-15.49.03:848][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.03.07-15.49.03:848][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [/home/lpereira/git/04_BattleTank/BattleTank/Saved/Config/Linux/Engine.ini]
+[2020.03.07-15.49.03:848][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.03.07-15.49.03:848][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.03.07-15.49.03:848][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.03.07-15.49.03:848][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.03.07-15.49.03:849][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.03.07-15.49.03:849][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.03.07-15.49.03:849][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2020.03.07-15.49.03:849][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.03.07-15.49.03:849][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.03.07-15.49.03:849][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.03.07-15.49.03:849][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.03.07-15.49.03:849][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.03.07-15.49.03:849][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.03.07-15.49.03:849][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [/home/lpereira/git/04_BattleTank/BattleTank/Saved/Config/Linux/Engine.ini]
+[2020.03.07-15.49.03:849][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [/home/lpereira/git/04_BattleTank/BattleTank/Saved/Config/Linux/Engine.ini]
+[2020.03.07-15.49.03:849][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [/home/lpereira/git/04_BattleTank/BattleTank/Saved/Config/Linux/Scalability.ini]
+[2020.03.07-15.49.03:849][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.03.07-15.49.03:849][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.03.07-15.49.03:849][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [/home/lpereira/git/04_BattleTank/BattleTank/Saved/Config/Linux/Scalability.ini]
+[2020.03.07-15.49.03:849][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.03.07-15.49.03:849][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [/home/lpereira/git/04_BattleTank/BattleTank/Saved/Config/Linux/Scalability.ini]
+[2020.03.07-15.49.03:849][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.03.07-15.49.03:849][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.03.07-15.49.03:849][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.03.07-15.49.03:849][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.03.07-15.49.03:849][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.03.07-15.49.03:849][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.03.07-15.49.03:849][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.03.07-15.49.03:849][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.03.07-15.49.03:849][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.03.07-15.49.03:849][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.03.07-15.49.03:849][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.03.07-15.49.03:849][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.03.07-15.49.03:849][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.03.07-15.49.03:849][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.03.07-15.49.03:849][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.03.07-15.49.03:849][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.03.07-15.49.03:849][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.03.07-15.49.03:849][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.03.07-15.49.03:849][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [/home/lpereira/git/04_BattleTank/BattleTank/Saved/Config/Linux/Scalability.ini]
+[2020.03.07-15.49.03:849][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.03.07-15.49.03:849][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.03.07-15.49.03:849][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.03.07-15.49.03:849][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.03.07-15.49.03:849][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.03.07-15.49.03:849][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.03.07-15.49.03:850][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.03.07-15.49.03:850][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.03.07-15.49.03:850][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.03.07-15.49.03:850][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.03.07-15.49.03:850][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.03.07-15.49.03:850][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.03.07-15.49.03:850][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.03.07-15.49.03:850][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.03.07-15.49.03:850][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.03.07-15.49.03:850][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.03.07-15.49.03:850][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.03.07-15.49.03:850][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.03.07-15.49.03:850][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.03.07-15.49.03:850][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.03.07-15.49.03:850][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.03.07-15.49.03:850][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.03.07-15.49.03:850][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.03.07-15.49.03:850][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.03.07-15.49.03:850][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.03.07-15.49.03:850][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.03.07-15.49.03:850][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.03.07-15.49.03:850][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.03.07-15.49.03:850][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.03.07-15.49.03:850][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.03.07-15.49.03:850][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [/home/lpereira/git/04_BattleTank/BattleTank/Saved/Config/Linux/Scalability.ini]
+[2020.03.07-15.49.03:850][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.03.07-15.49.03:850][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.03.07-15.49.03:850][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.03.07-15.49.03:850][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.03.07-15.49.03:850][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.03.07-15.49.03:850][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.03.07-15.49.03:850][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.03.07-15.49.03:850][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.03.07-15.49.03:850][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [/home/lpereira/git/04_BattleTank/BattleTank/Saved/Config/Linux/Scalability.ini]
+[2020.03.07-15.49.03:850][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.03.07-15.49.03:850][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.03.07-15.49.03:850][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.03.07-15.49.03:850][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.03.07-15.49.03:850][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.03.07-15.49.03:850][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.03.07-15.49.03:850][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.03.07-15.49.03:850][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.03.07-15.49.03:850][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.03.07-15.49.03:850][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.03.07-15.49.03:850][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.03.07-15.49.03:850][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.03.07-15.49.03:850][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.03.07-15.49.03:850][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [/home/lpereira/git/04_BattleTank/BattleTank/Saved/Config/Linux/Scalability.ini]
+[2020.03.07-15.49.03:850][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.03.07-15.49.03:850][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.03.07-15.49.03:850][  0]LogLinux: Selected Device Profile: [Linux]
+[2020.03.07-15.49.03:850][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Linux]
+[2020.03.07-15.49.03:860][  0]LogHAL: Display: Platform has ~ 4 GB [25009520640 / 4294967296 / 24], which maps to Smallest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.03.07-15.49.03:860][  0]LogInit: Going up to parent DeviceProfile []
+[2020.03.07-15.49.03:860][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [/home/lpereira/git/04_BattleTank/BattleTank/Saved/Config/Linux/Scalability.ini]
+[2020.03.07-15.49.03:860][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.03.07-15.49.03:860][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.03.07-15.49.03:860][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [/home/lpereira/git/04_BattleTank/BattleTank/Saved/Config/Linux/Scalability.ini]
+[2020.03.07-15.49.03:860][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.03.07-15.49.03:860][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [/home/lpereira/git/04_BattleTank/BattleTank/Saved/Config/Linux/Scalability.ini]
+[2020.03.07-15.49.03:860][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.03.07-15.49.03:860][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.03.07-15.49.03:860][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.03.07-15.49.03:860][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.03.07-15.49.03:860][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.03.07-15.49.03:860][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.03.07-15.49.03:860][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.03.07-15.49.03:860][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.03.07-15.49.03:860][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.03.07-15.49.03:860][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.03.07-15.49.03:860][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.03.07-15.49.03:860][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.03.07-15.49.03:860][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.03.07-15.49.03:860][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.03.07-15.49.03:860][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.03.07-15.49.03:860][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.03.07-15.49.03:860][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.03.07-15.49.03:860][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.03.07-15.49.03:860][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [/home/lpereira/git/04_BattleTank/BattleTank/Saved/Config/Linux/Scalability.ini]
+[2020.03.07-15.49.03:860][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.03.07-15.49.03:860][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.03.07-15.49.03:860][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.03.07-15.49.03:860][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.03.07-15.49.03:860][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.03.07-15.49.03:860][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.03.07-15.49.03:860][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.03.07-15.49.03:860][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.03.07-15.49.03:860][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.03.07-15.49.03:860][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.03.07-15.49.03:860][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.03.07-15.49.03:860][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.03.07-15.49.03:860][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.03.07-15.49.03:860][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.03.07-15.49.03:860][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.03.07-15.49.03:860][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.03.07-15.49.03:860][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.03.07-15.49.03:860][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.03.07-15.49.03:860][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.03.07-15.49.03:860][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.03.07-15.49.03:860][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.03.07-15.49.03:860][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.03.07-15.49.03:860][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.03.07-15.49.03:860][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.03.07-15.49.03:860][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.03.07-15.49.03:860][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.03.07-15.49.03:860][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.03.07-15.49.03:860][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.03.07-15.49.03:860][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.03.07-15.49.03:860][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.03.07-15.49.03:860][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [/home/lpereira/git/04_BattleTank/BattleTank/Saved/Config/Linux/Scalability.ini]
+[2020.03.07-15.49.03:860][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.03.07-15.49.03:860][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.03.07-15.49.03:861][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.03.07-15.49.03:861][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.03.07-15.49.03:861][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.03.07-15.49.03:861][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.03.07-15.49.03:861][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.03.07-15.49.03:861][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.03.07-15.49.03:861][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [/home/lpereira/git/04_BattleTank/BattleTank/Saved/Config/Linux/Scalability.ini]
+[2020.03.07-15.49.03:861][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.03.07-15.49.03:861][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.03.07-15.49.03:861][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.03.07-15.49.03:861][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.03.07-15.49.03:861][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.03.07-15.49.03:861][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.03.07-15.49.03:861][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.03.07-15.49.03:861][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.03.07-15.49.03:861][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.03.07-15.49.03:861][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.03.07-15.49.03:861][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.03.07-15.49.03:861][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.03.07-15.49.03:861][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.03.07-15.49.03:861][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [/home/lpereira/git/04_BattleTank/BattleTank/Saved/Config/Linux/Scalability.ini]
+[2020.03.07-15.49.03:861][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.03.07-15.49.03:861][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.03.07-15.49.03:861][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.03.07-15.49.03:861][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.03.07-15.49.03:861][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.03.07-15.49.03:861][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [/home/lpereira/git/04_BattleTank/BattleTank/Saved/Config/Linux/Engine.ini]
+[2020.03.07-15.49.03:861][  0]LogConfig: Setting CVar [[g.TimeoutForBlockOnRenderFence:60000]]
+[2020.03.07-15.49.03:861][  0]LogInit: Unix hardware info:
+[2020.03.07-15.49.03:861][  0]LogInit:  - we are the first instance of this executable
+[2020.03.07-15.49.03:861][  0]LogInit:  - this process' id (pid) is 11619, parent process' id (ppid) is 1
+[2020.03.07-15.49.03:861][  0]LogInit:  - we are not running under debugger
+[2020.03.07-15.49.03:861][  0]LogInit:  - machine network name is 'luiz-ThinkPad-T480s'
+[2020.03.07-15.49.03:861][  0]LogInit:  - user name is 'lpereira' (lpereira)
+[2020.03.07-15.49.03:861][  0]LogInit:  - we're logged in locally
+[2020.03.07-15.49.03:861][  0]LogInit:  - we're running with rendering
+[2020.03.07-15.49.03:861][  0]LogInit:  - CPU: GenuineIntel 'Intel(R) Core(TM) i7-8650U CPU @ 1.90GHz' (signature: 0x806EA)
+[2020.03.07-15.49.03:861][  0]LogInit:  - Number of physical cores available for the process: 4
+[2020.03.07-15.49.03:861][  0]LogInit:  - Number of logical cores available for the process: 8
+[2020.03.07-15.49.03:861][  0]LogInit:  - Cache line size: 64
+[2020.03.07-15.49.03:861][  0]LogInit:  - Memory allocator used: binned2
+[2020.03.07-15.49.03:861][  0]LogInit:  - This binary is optimized with LTO: no, PGO: no, instrumented for PGO data collection: no
+[2020.03.07-15.49.03:861][  0]LogCore: Benchmarking clocks:
+[2020.03.07-15.49.03:861][  0]LogCore:  - CLOCK_MONOTONIC (id=1) can sustain 54098167 (54098K, 54M) calls per second without zero deltas.
+[2020.03.07-15.49.03:862][  0]LogCore:  - CLOCK_MONOTONIC_RAW (id=4) can sustain 2294817 (2295K, 2M) calls per second without zero deltas.
+[2020.03.07-15.49.03:862][  0]LogCore:  - CLOCK_MONOTONIC_COARSE (id=6) can sustain 153763467 (153763K, 154M) calls per second with 99.999831% zero deltas.
+[2020.03.07-15.49.03:862][  0]LogCore: Selected clock_id 1 (CLOCK_MONOTONIC) since it is the fastest support clock without zero deltas.
+[2020.03.07-15.49.03:862][  0]LogInit: Unix-specific commandline switches:
+[2020.03.07-15.49.03:862][  0]LogInit:  -ansimalloc - use malloc()/free() from libc (useful for tools like valgrind and electric fence)
+[2020.03.07-15.49.03:862][  0]LogInit:  -jemalloc - use jemalloc for all memory allocation
+[2020.03.07-15.49.03:862][  0]LogInit:  -binnedmalloc - use binned malloc  for all memory allocation
+[2020.03.07-15.49.03:862][  0]LogInit:  -filemapcachesize=NUMBER - set the size for case-sensitive file mapping cache
+[2020.03.07-15.49.03:862][  0]LogInit:  -useksm - uses kernel same-page mapping (KSM) for mapped memory (OFF)
+[2020.03.07-15.49.03:862][  0]LogInit:  -ksmmergeall - marks all mmap'd memory pages suitable for KSM (OFF)
+[2020.03.07-15.49.03:862][  0]LogInit:  -preloadmodulesymbols - Loads the main module symbols file into memory (OFF)
+[2020.03.07-15.49.03:862][  0]LogInit:  -sigdfl=SIGNAL - Allows a specific signal to be set to its default handler rather then ignoring the signal
+[2020.03.07-15.49.03:862][  0]LogInit:  -httpproxy=ADDRESS:PORT - redirects HTTP requests to a proxy (only supported if compiled with libcurl)
+[2020.03.07-15.49.03:862][  0]LogInit:  -reuseconn - allow libcurl to reuse HTTP connections (only matters if compiled with libcurl)
+[2020.03.07-15.49.03:862][  0]LogInit:  -virtmemkb=NUMBER - sets process virtual memory (address space) limit (overrides VirtualMemoryLimitInKB value from .ini)
+[2020.03.07-15.49.03:862][  0]LogInit:  - Physical RAM available (not considering process quota): 24 GB (23850 MB, 24423360 KB, 25009520640 bytes)
+[2020.03.07-15.49.03:862][  0]LogInit:  - VirtualMemoryAllocator pools will grow at scale 1.4
+[2020.03.07-15.49.03:862][  0]LogInit:  - MemoryRangeDecommit() will be a no-op (re-run with -vmapoolevict to change)
+[2020.03.07-15.49.04:072][  0]LogInit: Using OS detected language (en-CA).
+[2020.03.07-15.49.04:072][  0]LogInit: Using OS detected locale (en-CA).
+[2020.03.07-15.49.04:072][  0]LogTextLocalizationManager: No specific localization for 'en-CA' exists, so the 'en' localization will be used.
+[2020.03.07-15.49.04:370][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.03.07-15.49.04:370][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.03.07-15.49.05:068][  0]LogInit: Using SDL_WINDOW_OPENGL
+[2020.03.07-15.49.05:071][  0]LogRHI: Initializing OpenGL RHI
+[2020.03.07-15.49.05:071][  0]LogRHI:   GL_VENDOR: Intel
+[2020.03.07-15.49.05:071][  0]LogRHI:   GL_RENDERER: Mesa Intel(R) UHD Graphics 620 (KBL GT2)
+[2020.03.07-15.49.05:071][  0]LogRHI:   GL_VERSION: 4.6 (Core Profile) Mesa 20.1.0-devel (git-20c09c9 2020-03-07 bionic-oibaf-ppa)
+[2020.03.07-15.49.05:071][  0]LogRHI:   GL_SHADING_LANGUAGE_VERSION: 4.60
+[2020.03.07-15.49.05:071][  0]LogRHI: OpenGL Extensions:
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_3DFX_texture_compression_FXT1
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_AMD_conservative_depth
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_AMD_depth_clamp_separate
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_AMD_draw_buffers_blend
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_AMD_gpu_shader_int64
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_AMD_multi_draw_indirect
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_AMD_performance_monitor
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_AMD_pinned_memory
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_AMD_query_buffer_object
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_AMD_seamless_cubemap_per_texture
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_AMD_shader_stencil_export
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_AMD_shader_trinary_minmax
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_AMD_texture_texture4
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_AMD_vertex_shader_layer
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_AMD_vertex_shader_viewport_index
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ANGLE_texture_compression_dxt3
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ANGLE_texture_compression_dxt5
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_ES2_compatibility
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_ES3_1_compatibility
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_ES3_2_compatibility
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_ES3_compatibility
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_arrays_of_arrays
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_base_instance
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_blend_func_extended
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_buffer_storage
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_clear_buffer_object
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_clear_texture
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_clip_control
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_compressed_texture_pixel_storage
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_compute_shader
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_conditional_render_inverted
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_conservative_depth
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_copy_buffer
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_copy_image
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_cull_distance
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_debug_output
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_depth_buffer_float
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_depth_clamp
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_derivative_control
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_direct_state_access
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_draw_buffers
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_draw_buffers_blend
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_draw_elements_base_vertex
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_draw_indirect
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_draw_instanced
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_enhanced_layouts
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_explicit_attrib_location
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_explicit_uniform_location
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_fragment_coord_conventions
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_fragment_layer_viewport
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_fragment_shader
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_fragment_shader_interlock
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_framebuffer_no_attachments
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_framebuffer_object
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_framebuffer_sRGB
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_get_program_binary
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_get_texture_sub_image
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_gl_spirv
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_gpu_shader5
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_gpu_shader_fp64
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_gpu_shader_int64
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_half_float_pixel
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_half_float_vertex
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_indirect_parameters
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_instanced_arrays
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_internalformat_query
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_internalformat_query2
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_invalidate_subdata
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_map_buffer_alignment
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_map_buffer_range
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_multi_bind
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_multi_draw_indirect
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_occlusion_query2
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_parallel_shader_compile
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_pipeline_statistics_query
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_pixel_buffer_object
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_point_sprite
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_polygon_offset_clamp
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_post_depth_coverage
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_program_interface_query
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_provoking_vertex
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_query_buffer_object
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_robust_buffer_access_behavior
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_robustness
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_sample_shading
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_sampler_objects
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_seamless_cube_map
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_seamless_cubemap_per_texture
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_separate_shader_objects
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_shader_atomic_counter_ops
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_shader_atomic_counters
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_shader_ballot
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_shader_bit_encoding
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_shader_clock
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_shader_draw_parameters
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_shader_group_vote
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_shader_image_load_store
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_shader_image_size
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_shader_objects
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_shader_precision
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_shader_stencil_export
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_shader_storage_buffer_object
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_shader_subroutine
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_shader_texture_image_samples
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_shader_texture_lod
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_shader_viewport_layer_array
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_shading_language_420pack
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_shading_language_include
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_shading_language_packing
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_spirv_extensions
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_stencil_texturing
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_sync
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_tessellation_shader
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_texture_barrier
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_texture_buffer_object
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_texture_buffer_object_rgb32
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_texture_buffer_range
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_texture_compression_bptc
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_texture_compression_rgtc
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_texture_cube_map_array
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_texture_filter_anisotropic
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_texture_float
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_texture_gather
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_texture_mirror_clamp_to_edge
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_texture_multisample
+[2020.03.07-15.49.05:072][  0]LogRHI:   GL_ARB_texture_non_power_of_two
+[2020.03.07-15.49.05:073][  0]LogRHI:   GL_ARB_texture_query_levels
+[2020.03.07-15.49.05:073][  0]LogRHI:   GL_ARB_texture_query_lod
+[2020.03.07-15.49.05:073][  0]LogRHI:   GL_ARB_texture_rectangle
+[2020.03.07-15.49.05:073][  0]LogRHI:   GL_ARB_texture_rg
+[2020.03.07-15.49.05:073][  0]LogRHI:   GL_ARB_texture_rgb10_a2ui
+[2020.03.07-15.49.05:073][  0]LogRHI:   GL_ARB_texture_stencil8
+[2020.03.07-15.49.05:073][  0]LogRHI:   GL_ARB_texture_storage
+[2020.03.07-15.49.05:073][  0]LogRHI:   GL_ARB_texture_storage_multisample
+[2020.03.07-15.49.05:073][  0]LogRHI:   GL_ARB_texture_swizzle
+[2020.03.07-15.49.05:073][  0]LogRHI:   GL_ARB_texture_view
+[2020.03.07-15.49.05:073][  0]LogRHI:   GL_ARB_timer_query
+[2020.03.07-15.49.05:073][  0]LogRHI:   GL_ARB_transform_feedback2
+[2020.03.07-15.49.05:073][  0]LogRHI:   GL_ARB_transform_feedback3
+[2020.03.07-15.49.05:073][  0]LogRHI:   GL_ARB_transform_feedback_instanced
+[2020.03.07-15.49.05:073][  0]LogRHI:   GL_ARB_transform_feedback_overflow_query
+[2020.03.07-15.49.05:073][  0]LogRHI:   GL_ARB_uniform_buffer_object
+[2020.03.07-15.49.05:073][  0]LogRHI:   GL_ARB_vertex_array_bgra
+[2020.03.07-15.49.05:073][  0]LogRHI:   GL_ARB_vertex_array_object
+[2020.03.07-15.49.05:073][  0]LogRHI:   GL_ARB_vertex_attrib_64bit
+[2020.03.07-15.49.05:073][  0]LogRHI:   GL_ARB_vertex_attrib_binding
+[2020.03.07-15.49.05:073][  0]LogRHI:   GL_ARB_vertex_buffer_object
+[2020.03.07-15.49.05:073][  0]LogRHI:   GL_ARB_vertex_shader
+[2020.03.07-15.49.05:073][  0]LogRHI:   GL_ARB_vertex_type_10f_11f_11f_rev
+[2020.03.07-15.49.05:073][  0]LogRHI:   GL_ARB_vertex_type_2_10_10_10_rev
+[2020.03.07-15.49.05:073][  0]LogRHI:   GL_ARB_viewport_array
+[2020.03.07-15.49.05:073][  0]LogRHI:   GL_ATI_blend_equation_separate
+[2020.03.07-15.49.05:073][  0]LogRHI:   GL_ATI_texture_float
+[2020.03.07-15.49.05:073][  0]LogRHI:   GL_EXT_EGL_image_storage
+[2020.03.07-15.49.05:073][  0]LogRHI:   GL_EXT_EGL_sync
+[2020.03.07-15.49.05:073][  0]LogRHI:   GL_EXT_abgr
+[2020.03.07-15.49.05:073][  0]LogRHI:   GL_EXT_blend_equation_separate
+[2020.03.07-15.49.05:073][  0]LogRHI:   GL_EXT_demote_to_helper_invocation
+[2020.03.07-15.49.05:073][  0]LogRHI:   GL_EXT_draw_buffers2
+[2020.03.07-15.49.05:073][  0]LogRHI:   GL_EXT_draw_instanced
+[2020.03.07-15.49.05:073][  0]LogRHI:   GL_EXT_framebuffer_blit
+[2020.03.07-15.49.05:073][  0]LogRHI:   GL_EXT_framebuffer_multisample
+[2020.03.07-15.49.05:073][  0]LogRHI:   GL_EXT_framebuffer_multisample_blit_scaled
+[2020.03.07-15.49.05:073][  0]LogRHI:   GL_EXT_framebuffer_object
+[2020.03.07-15.49.05:073][  0]LogRHI:   GL_EXT_framebuffer_sRGB
+[2020.03.07-15.49.05:073][  0]LogRHI:   GL_EXT_packed_depth_stencil
+[2020.03.07-15.49.05:073][  0]LogRHI:   GL_EXT_packed_float
+[2020.03.07-15.49.05:073][  0]LogRHI:   GL_EXT_pixel_buffer_object
+[2020.03.07-15.49.05:073][  0]LogRHI:   GL_EXT_polygon_offset_clamp
+[2020.03.07-15.49.05:073][  0]LogRHI:   GL_EXT_provoking_vertex
+[2020.03.07-15.49.05:073][  0]LogRHI:   GL_EXT_shader_framebuffer_fetch
+[2020.03.07-15.49.05:073][  0]LogRHI:   GL_EXT_shader_framebuffer_fetch_non_coherent
+[2020.03.07-15.49.05:073][  0]LogRHI:   GL_EXT_shader_integer_mix
+[2020.03.07-15.49.05:073][  0]LogRHI:   GL_EXT_shader_samples_identical
+[2020.03.07-15.49.05:073][  0]LogRHI:   GL_EXT_texture_array
+[2020.03.07-15.49.05:073][  0]LogRHI:   GL_EXT_texture_compression_dxt1
+[2020.03.07-15.49.05:073][  0]LogRHI:   GL_EXT_texture_compression_rgtc
+[2020.03.07-15.49.05:073][  0]LogRHI:   GL_EXT_texture_compression_s3tc
+[2020.03.07-15.49.05:073][  0]LogRHI:   GL_EXT_texture_filter_anisotropic
+[2020.03.07-15.49.05:073][  0]LogRHI:   GL_EXT_texture_integer
+[2020.03.07-15.49.05:073][  0]LogRHI:   GL_EXT_texture_sRGB
+[2020.03.07-15.49.05:073][  0]LogRHI:   GL_EXT_texture_sRGB_R8
+[2020.03.07-15.49.05:073][  0]LogRHI:   GL_EXT_texture_sRGB_decode
+[2020.03.07-15.49.05:073][  0]LogRHI:   GL_EXT_texture_shadow_lod
+[2020.03.07-15.49.05:073][  0]LogRHI:   GL_EXT_texture_shared_exponent
+[2020.03.07-15.49.05:073][  0]LogRHI:   GL_EXT_texture_snorm
+[2020.03.07-15.49.05:073][  0]LogRHI:   GL_EXT_texture_swizzle
+[2020.03.07-15.49.05:073][  0]LogRHI:   GL_EXT_timer_query
+[2020.03.07-15.49.05:073][  0]LogRHI:   GL_EXT_transform_feedback
+[2020.03.07-15.49.05:073][  0]LogRHI:   GL_EXT_vertex_array_bgra
+[2020.03.07-15.49.05:073][  0]LogRHI:   GL_EXT_vertex_attrib_64bit
+[2020.03.07-15.49.05:073][  0]LogRHI:   GL_IBM_multimode_draw_arrays
+[2020.03.07-15.49.05:073][  0]LogRHI:   GL_INTEL_blackhole_render
+[2020.03.07-15.49.05:073][  0]LogRHI:   GL_INTEL_conservative_rasterization
+[2020.03.07-15.49.05:073][  0]LogRHI:   GL_INTEL_performance_query
+[2020.03.07-15.49.05:073][  0]LogRHI:   GL_INTEL_shader_atomic_float_minmax
+[2020.03.07-15.49.05:073][  0]LogRHI:   GL_INTEL_shader_integer_functions2
+[2020.03.07-15.49.05:073][  0]LogRHI:   GL_KHR_blend_equation_advanced
+[2020.03.07-15.49.05:073][  0]LogRHI:   GL_KHR_blend_equation_advanced_coherent
+[2020.03.07-15.49.05:073][  0]LogRHI:   GL_KHR_context_flush_control
+[2020.03.07-15.49.05:073][  0]LogRHI:   GL_KHR_debug
+[2020.03.07-15.49.05:073][  0]LogRHI:   GL_KHR_no_error
+[2020.03.07-15.49.05:073][  0]LogRHI:   GL_KHR_parallel_shader_compile
+[2020.03.07-15.49.05:073][  0]LogRHI:   GL_KHR_robust_buffer_access_behavior
+[2020.03.07-15.49.05:073][  0]LogRHI:   GL_KHR_robustness
+[2020.03.07-15.49.05:073][  0]LogRHI:   GL_KHR_texture_compression_astc_ldr
+[2020.03.07-15.49.05:073][  0]LogRHI:   GL_KHR_texture_compression_astc_sliced_3d
+[2020.03.07-15.49.05:073][  0]LogRHI:   GL_MESA_framebuffer_flip_y
+[2020.03.07-15.49.05:073][  0]LogRHI:   GL_MESA_pack_invert
+[2020.03.07-15.49.05:073][  0]LogRHI:   GL_MESA_shader_integer_functions
+[2020.03.07-15.49.05:073][  0]LogRHI:   GL_MESA_texture_signed_rgba
+[2020.03.07-15.49.05:073][  0]LogRHI:   GL_NV_compute_shader_derivatives
+[2020.03.07-15.49.05:073][  0]LogRHI:   GL_NV_conditional_render
+[2020.03.07-15.49.05:073][  0]LogRHI:   GL_NV_copy_image
+[2020.03.07-15.49.05:073][  0]LogRHI:   GL_NV_depth_clamp
+[2020.03.07-15.49.05:073][  0]LogRHI:   GL_NV_fragment_shader_interlock
+[2020.03.07-15.49.05:073][  0]LogRHI:   GL_NV_packed_depth_stencil
+[2020.03.07-15.49.05:073][  0]LogRHI:   GL_NV_texture_barrier
+[2020.03.07-15.49.05:073][  0]LogRHI:   GL_OES_EGL_image
+[2020.03.07-15.49.05:073][  0]LogRHI:   GL_S3_s3tc
+[2020.03.07-15.49.05:086][  0]LogRHI:   GL_MAX_TEXTURE_SIZE: 16384
+[2020.03.07-15.49.05:086][  0]LogRHI:   GL_MAX_CUBE_MAP_TEXTURE_SIZE: 16384
+[2020.03.07-15.49.05:086][  0]LogRHI:   GL_MAX_ARRAY_TEXTURE_LAYERS: 2048
+[2020.03.07-15.49.05:086][  0]LogRHI:   GL_MAX_3D_TEXTURE_SIZE: 2048
+[2020.03.07-15.49.05:086][  0]LogRHI:   GL_MAX_RENDERBUFFER_SIZE: 16384
+[2020.03.07-15.49.05:086][  0]LogRHI:   GL_MAX_TEXTURE_IMAGE_UNITS: 32
+[2020.03.07-15.49.05:086][  0]LogRHI:   GL_MAX_DRAW_BUFFERS: 8
+[2020.03.07-15.49.05:086][  0]LogRHI:   GL_MAX_COLOR_ATTACHMENTS: 8
+[2020.03.07-15.49.05:086][  0]LogRHI:   GL_MAX_SAMPLES: 16
+[2020.03.07-15.49.05:086][  0]LogRHI:   GL_MAX_COLOR_TEXTURE_SAMPLES: 16
+[2020.03.07-15.49.05:086][  0]LogRHI:   GL_MAX_DEPTH_TEXTURE_SAMPLES: 16
+[2020.03.07-15.49.05:086][  0]LogRHI:   GL_MAX_INTEGER_SAMPLES: 16
+[2020.03.07-15.49.05:086][  0]LogRHI:   GL_MAX_COMBINED_TEXTURE_IMAGE_UNITS: 192
+[2020.03.07-15.49.05:086][  0]LogRHI:   GL_MAX_VERTEX_ATTRIBS: 16
+[2020.03.07-15.49.05:086][  0]LogRHI:   GL_MAX_TEXTURE_MAX_ANISOTROPY_EXT: 16
+[2020.03.07-15.49.05:086][  0]LogRHI: OpenGL MajorVersion = 4, MinorVersion = 6, ShaderPlatform = GLSL_430, FeatureLevel = SM5
+[2020.03.07-15.49.05:086][  0]LogRHI: FOpenGLProgramBinaryCache disabled by r.ProgramBinaryCache.Enable=0
+[2020.03.07-15.49.05:095][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2020.03.07-15.49.05:095][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2020.03.07-15.49.05:095][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2020.03.07-15.49.05:760][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2020.03.07-15.49.05:990][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2020.03.07-15.49.05:990][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2020.03.07-15.49.05:990][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2020.03.07-15.49.05:990][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2020.03.07-15.49.05:990][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2020.03.07-15.49.05:990][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2020.03.07-15.49.05:990][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2020.03.07-15.49.05:990][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2020.03.07-15.49.05:990][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2020.03.07-15.49.05:990][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2020.03.07-15.49.05:991][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2020.03.07-15.49.05:991][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2020.03.07-15.49.05:991][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2020.03.07-15.49.05:991][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2020.03.07-15.49.05:991][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2020.03.07-15.49.05:991][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2020.03.07-15.49.05:991][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2020.03.07-15.49.05:991][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2020.03.07-15.49.06:179][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2020.03.07-15.49.06:364][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2020.03.07-15.49.06:556][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2020.03.07-15.49.06:743][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2020.03.07-15.49.06:919][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2020.03.07-15.49.06:926][  0]LogTargetPlatformManager: Display: Building Assets For Linux
+[2020.03.07-15.49.07:428][  0]LogShaderCompilers: Guid format shader working directory is 14 characters bigger than the processId version (../../../../04_BattleTank/BattleTank/Intermediate/Shaders/WorkingDirectory/11619/).
+[2020.03.07-15.49.07:428][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../04_BattleTank/BattleTank/Intermediate/Shaders/tmp/00049CE308D7C28529390F9836F2D238/'.
+[2020.03.07-15.49.07:428][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.03.07-15.49.08:459][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.03.07-15.49.08:459][  0]LogDerivedDataCache: Display: Starting with empty Boot cache
+[2020.03.07-15.49.08:459][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../04_BattleTank/BattleTank/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.03.07-15.49.08:459][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.03.07-15.49.08:460][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnginePak pak cache file ../../../Engine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.03.07-15.49.08:460][  0]LogDerivedDataCache: Unable to find inner node EnginePak for hierarchical cache Hierarchy.
+[2020.03.07-15.49.08:460][  0]LogDerivedDataCache: Using Local data cache path ../../../Engine/DerivedDataCache: Writable
+[2020.03.07-15.49.08:460][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.03.07-15.49.08:460][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.03.07-15.49.08:492][  0]LogMaterial: Verifying Global Shaders for GLSL_430
+[2020.03.07-15.49.08:502][  0]LogSlate: Using FreeType 2.6.0
+[2020.03.07-15.49.08:503][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 0
+[2020.03.07-15.49.08:592][  0]LogAssetRegistry: FAssetRegistry took 0.0029 seconds to start up
+[2020.03.07-15.49.08:850][  0]LogLinux: Selected Device Profile: [Linux]
+[2020.03.07-15.49.10:037][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.03.07-15.49.10:037][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.03.07-15.49.10:037][  0]LogMeshReduction: No automatic mesh merging module available
+[2020.03.07-15.49.10:037][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.03.07-15.49.10:037][  0]LogMeshMerging: No automatic mesh merging module available
+[2020.03.07-15.49.10:037][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.03.07-15.49.10:057][  0]LogNetVersion: BattleTank 1.0.0, NetCL: 0, EngineNetVer: 10, GameNetVer: 0 (Checksum: 1061471379)
+[2020.03.07-15.49.10:651][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.024663 seconds
+[2020.03.07-15.49.10:657][  0]LogUObjectArray: 41533 objects as part of root set at end of initial load.
+[2020.03.07-15.49.10:657][  0]LogUObjectAllocator: 7197240 out of 0 bytes used by permanent object pool.
+[2020.03.07-15.49.10:657][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.03.07-15.49.10:932][  0]LogHAL: Linux SourceCodeAccessSettings: NullSourceCodeAccessor
+[2020.03.07-15.49.15:659][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.03.07-15.49.15:663][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.03.07-15.49.19:986][  0]SourceControl: Source control is disabled
+[2020.03.07-15.49.19:986][  0]SourceControl: Source control is disabled
+[2020.03.07-15.49.20:157][  0]SourceControl: Source control is disabled
+[2020.03.07-15.49.20:309][  0]SourceControl: Source control is disabled
+[2020.03.07-15.49.24:448][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.03.07-15.49.27:275][  0]LogEngine: Initializing Engine...
+[2020.03.07-15.49.27:276][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.03.07-15.49.27:277][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.03.07-15.49.27:870][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.03.07-15.49.28:477][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.03.07-15.49.28:486][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.03.07-15.49.28:486][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.03.07-15.49.28:486][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.03.07-15.49.28:486][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.03.07-15.49.28:486][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.03.07-15.49.28:486][  0]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2020.03.07-15.49.28:486][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.03.07-15.49.28:486][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.03.07-15.49.28:493][  0]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2020.03.07-15.49.28:713][  0]LogInit: FAudioDevice initialized.
+[2020.03.07-15.49.28:716][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.03.07-15.49.28:794][  0]LogDerivedDataCache: Saved boot cache 0.08s 85MB ../../../../04_BattleTank/BattleTank/DerivedDataCache/Boot.ddc.
+[2020.03.07-15.49.28:823][  0]LogInit: Texture streaming: Enabled
+[2020.03.07-15.49.29:011][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.03.07-15.49.29:686][  0]LogInit: Transaction tracking system initialized
+[2020.03.07-15.49.30:659][  0]BlueprintLog: New page: Editor Load
+[2020.03.07-15.49.33:758][  0]LocalizationService: Localization service is disabled
+[2020.03.07-15.49.35:980][  0]LogFileCache: Scanning file cache for directory '/home/lpereira/git/04_BattleTank/BattleTank/Content/' took 0.00s
+[2020.03.07-15.49.35:980][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.03.07-15.49.35:980][  0]LogCook: Display: Mobile HDR setting 1
+[2020.03.07-15.49.41:100][  0]SourceControl: Source control is disabled
+[2020.03.07-15.49.41:100][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.03.07-15.49.41:112][  0]LightingResults: New page: Lighting Build
+[2020.03.07-15.49.41:272][  0]MapCheck: New page: Map Check
+[2020.03.07-15.49.41:272][  0]LightingResults: New page: Lighting Build
+[2020.03.07-15.49.41:306][  0]LogUObjectHash: Compacting FUObjectHashTables data took   3.22ms
+[2020.03.07-15.49.41:628][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2020.03.07-15.49.41:636][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.03.07-15.49.41:679][  0]LogUObjectHash: Compacting FUObjectHashTables data took  10.22ms
+[2020.03.07-15.49.41:691][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.03.07-15.49.41:691][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.095ms to complete.
+[2020.03.07-15.49.41:691][  0]LogFileHelpers: Loading map 'Template_Default' took 0.591
+[2020.03.07-15.49.41:707][  0]LogLinux: Scale at X=2560.000000, Y=373.500000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2020.03.07-15.49.41:707][  0]LogLinux: Scale at X=3205.000000, Y=738.500000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2020.03.07-15.49.41:754][  0]LogLinux: Scale at X=1920.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2020.03.07-15.49.41:806][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.07-15.49.41:827][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.07-15.49.41:837][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.07-15.49.41:857][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.07-15.49.41:874][  0]LogCollectionManager: Loaded 0 collections in 0.003784 seconds
+[2020.03.07-15.49.41:903][  0]LogFileCache: Scanning file cache for directory '/home/lpereira/git/04_BattleTank/BattleTank/Saved/Collections/' took 0.00s
+[2020.03.07-15.49.41:903][  0]LogFileCache: Scanning file cache for directory '/home/lpereira/git/04_BattleTank/BattleTank/Content/Developers/lpereira/Collections/' took 0.00s
+[2020.03.07-15.49.41:903][  0]LogFileCache: Scanning file cache for directory '/home/lpereira/git/04_BattleTank/BattleTank/Content/Collections/' took 0.00s
+[2020.03.07-15.49.41:903][  0]LogContentBrowser: Native class hierarchy populated in 0.0179 seconds. Added 2689 classes and 619 folders.
+[2020.03.07-15.49.41:908][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2020.03.07-15.49.42:301][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.03.07-15.49.42:305][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.07-15.49.42:307][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.07-15.49.42:308][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.07-15.49.42:309][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.07-15.49.42:314][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.07-15.49.42:316][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.07-15.49.42:318][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.07-15.49.42:319][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.07-15.49.42:320][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.07-15.49.42:320][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.07-15.49.42:322][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.07-15.49.42:323][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.07-15.49.42:324][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.07-15.49.42:325][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.07-15.49.42:327][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.07-15.49.42:329][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.07-15.49.42:331][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.07-15.49.42:334][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.07-15.49.42:335][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.07-15.49.42:336][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.07-15.49.42:338][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.07-15.49.42:339][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.07-15.49.42:340][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.07-15.49.42:341][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.07-15.49.42:343][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.07-15.49.42:346][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.07-15.49.42:738][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2020.03.07-15.49.43:103][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2020.03.07-15.49.43:466][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.03.07-15.49.43:466][  0]LogLoad: (Engine Initialization) Total time: 69.99 seconds
+[2020.03.07-15.49.43:466][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.03.07-15.49.43:480][  0]LogRHI: Using OpenGL program LRU cache: 0
+[2020.03.07-15.49.43:480][  0]LogSlate: Took 0.000134 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.03.07-15.49.43:486][  0]LogSlate: Took 0.000150 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.03.07-15.49.43:501][  0]LogSlate: Took 0.002176 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.03.07-15.49.44:581][  0]LogRenderer: Reallocating scene render targets to support 1684x924 Format 10 NumSamples 1 (Frame:1).
+[2020.03.07-15.49.46:101][  0]LogLinux: Setting swap interval to 'Immediate'
+[2020.03.07-15.49.46:101][  0]LogInit: Adding external input plugin.
+[2020.03.07-15.49.46:134][  0]LogAssetRegistry: Asset discovery search completed in 37.5428 seconds
+[2020.03.07-15.49.46:137][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2020.03.07-15.49.46:137][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000096 seconds (updated 0 objects)
+[2020.03.07-15.49.46:139][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.03.07-15.49.49:311][ 12]LogLinux: Scale at X=3200.000000, Y=720.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2020.03.07-15.49.50:211][ 14]LogLinux: Setting swap interval to 'Immediate'
+[2020.03.07-15.49.52:959][ 48]LogLinux: Scale at X=2100.500000, Y=357.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2020.03.07-15.49.52:968][ 48]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.07-15.49.52:989][ 50]LogLinux: Setting swap interval to 'Immediate'
+[2020.03.07-15.49.56:044][272]LogLinux: Scale at X=2298.500000, Y=513.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2020.03.07-15.49.56:058][272]LogLinux: Setting swap interval to 'Immediate'
+[2020.03.07-15.49.57:231][354]LogLinux: Scale at X=2298.500000, Y=513.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2020.03.07-15.49.57:246][355]LogLinux: Setting swap interval to 'Immediate'
+[2020.03.07-15.49.57:918][400]LogLinux: Scale at X=2155.500000, Y=228.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2020.03.07-15.49.57:922][400]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.03.07-15.49.57:944][402]LogLinux: Setting swap interval to 'Immediate'
+[2020.03.07-15.50.01:840][620]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.03.07-15.51.00:545][583]LogLinux: Scale at X=2155.500000, Y=228.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2020.03.07-15.51.00:589][585]LogLinux: Setting swap interval to 'Immediate'
+[2020.03.07-15.51.03:683][807]LogLinux: Scale at X=361.000000, Y=169.000000: 1.000000 (monitor=#1, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2020.03.07-15.51.03:684][807]LogLinux: Scale at X=1013.500000, Y=539.500000: 1.000000 (monitor=#1, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2020.03.07-15.51.04:332][808]LogLinux: Setting swap interval to 'Immediate'
+[2020.03.07-15.51.29:879][158]LogLinux: Scale at X=1061.500000, Y=363.000000: 1.000000 (monitor=#1, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2020.03.07-15.51.29:936][159]LogLinux: Setting swap interval to 'Immediate'
+[2020.03.07-16.05.43:623][214]LogHttp: Warning: 0x7efc0c67a380: request has been successfully processed. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B05F03245-08D7-C285-35FD-D61E3839B78E%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.22.3-0%2B%2B%2BUE4%2BRelease-4.22&UserID=21b68a54ebe64316afebbfc56f04744f-000003e9%7C%7C21b68a54ebe64316afebbfc56f04744f&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 502, content length: 138, actual payload size: 138
+[2020.03.07-16.05.43:623][214]LogHttp: Warning: 0x7efc0c67a380 Response Header Server: awselb/2.0
+[2020.03.07-16.05.43:624][214]LogHttp: Warning: 0x7efc0c67a380 Response Header Date: Sat, 07 Mar 2020 16:05:43 GMT
+[2020.03.07-16.05.43:624][214]LogHttp: Warning: 0x7efc0c67a380 Response Header Content-Type: text/html
+[2020.03.07-16.05.43:624][214]LogHttp: Warning: 0x7efc0c67a380 Response Header Content-Length: 138
+[2020.03.07-16.05.43:624][214]LogHttp: Warning: 0x7efc0c67a380 Response Header Connection: keep-alive
+[2020.03.07-16.26.26:493][961]LogLinux: Scale at X=1072.500000, Y=398.000000: 1.000000 (monitor=#1, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2020.03.07-16.26.26:543][962]LogLinux: Setting swap interval to 'Immediate'
+[2020.03.07-16.26.29:371][105]LogLinux: Scale at X=55.000000, Y=27.000000: 1.000000 (monitor=#1, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2020.03.07-16.26.29:371][105]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#1, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2020.03.07-16.26.29:371][105]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#1, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2020.03.07-16.26.29:411][105]LogSlate: Took 0.000514 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.03.07-16.26.29:581][109]LogLinux: Setting swap interval to 'Immediate'
+[2020.03.07-16.26.36:473][236]LogLinux: Scale at X=361.000000, Y=169.000000: 1.000000 (monitor=#1, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2020.03.07-16.26.36:473][236]LogSlate: Window 'Editor Preferences' being destroyed
+[2020.03.07-16.26.36:500][236]LogSlate: Window 'Editor Preferences' being destroyed
+[2020.03.07-16.47.53:512][104]LogSlate: Took 0.080153 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)

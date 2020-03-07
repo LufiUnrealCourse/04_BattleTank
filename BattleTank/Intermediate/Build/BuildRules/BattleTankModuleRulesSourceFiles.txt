@@ -1,0 +1,3 @@
+/home/lpereira/git/04_BattleTank/BattleTank/Source/BattleTank/BattleTank.Build.cs
+/home/lpereira/git/04_BattleTank/BattleTank/Source/BattleTank.Target.cs
+/home/lpereira/git/04_BattleTank/BattleTank/Source/BattleTankEditor.Target.cs

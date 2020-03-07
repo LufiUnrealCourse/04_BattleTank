@@ -1,0 +1,7 @@
+{
+	"files.exclude": {
+		"/home/lpereira/git/04_BattleTank/BattleTank/.vscode": true,
+		"/home/lpereira/git/04_BattleTank/BattleTank/Content": true,
+		"/home/lpereira/git/04_BattleTank/BattleTank/Intermediate": true
+	}
+}

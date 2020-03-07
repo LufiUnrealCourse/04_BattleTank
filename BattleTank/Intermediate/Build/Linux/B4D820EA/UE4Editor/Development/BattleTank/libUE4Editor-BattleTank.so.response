@@ -1,0 +1,9 @@
+"/home/lpereira/git/04_BattleTank/BattleTank/Intermediate/Build/Linux/B4D820EA/UE4Editor/Development/BattleTank/BattleTank.cpp.o"
+"/home/lpereira/git/04_BattleTank/BattleTank/Intermediate/Build/Linux/B4D820EA/UE4Editor/Development/BattleTank/BattleTankGameModeBase.cpp.o"
+"/home/lpereira/git/04_BattleTank/BattleTank/Intermediate/Build/Linux/B4D820EA/UE4Editor/Development/BattleTank/BattleTank.init.gen.cpp.o"
+"/home/lpereira/git/04_BattleTank/BattleTank/Intermediate/Build/Linux/B4D820EA/UE4Editor/Development/BattleTank/BattleTankGameModeBase.gen.cpp.o"
+ -soname="libUE4Editor-BattleTank.so"
+ -rpath-link="/home/lpereira/git/04_BattleTank/BattleTank/Binaries/Linux"
+ -L"/home/lpereira/git/UnrealEngine/Engine/Binaries/Linux"
+ --start-group
+ --end-group

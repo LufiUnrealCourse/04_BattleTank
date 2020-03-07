@@ -1,0 +1,3 @@
+/home/lpereira/git/04_BattleTank/BattleTank/Source/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/lpereira/git/04_BattleTank/BattleTank/Source/cmake-build-debug/CMakeFiles/Source.dir
+/home/lpereira/git/04_BattleTank/BattleTank/Source/cmake-build-debug/CMakeFiles/edit_cache.dir
